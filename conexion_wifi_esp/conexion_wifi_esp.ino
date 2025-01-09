@@ -1,11 +1,11 @@
 #include <ESP8266WiFi.h>
 
 // Configuración de tu red WiFi
-const char* ssid = "Gordillo";
-const char* password = "chanchitos";
+const char* ssid = "TU RED";
+const char* password = "TU CLAVE";
 
 // Configuración del servidor backend
-const char* host = "192.168.1.59"; // Reemplaza con la IP de tu servidor Node.js
+const char* host = "000.000.0.0"; // Reemplaza con la IP de tu servidor Node.js
 const int httpPort = 3000;
 
 void setup() {
